@@ -15,7 +15,7 @@
 Floyd的递推公式如下
 
 $$
-\\dp[i][j]=\min_{1 \le k \le n}(d[i][k]+d[k][j])
+\\ dp[i][j]=\min_{1 \le k \le n}(d[i][k]+d[k][j])
 $$
 
 所以，当 $dp[i][k]$ 和 $dp[k][j]$ 都取最小值时，由公式珂知 $dp[i][j]$ 会取到最小值
